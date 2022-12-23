@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
+#container-card {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(213, 19%, 18%);
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+  margin: 200px auto;
+}
+
+.icon {
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 10px 5px;
+  background-color: hsl(213, 18%, 24%);
+  width: 35px;
+  height: 35px;
+}
+
+img {
+  margin-top: 8px;
+  margin-left: 4px;
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+
+.parrafo {
+  color: rgba(255, 255, 255, 0.555);
+  text-align: justify;
+  font-size: 14px;
+}
+
+.numbers {
+  margin-top: 20px;
+  gap: 20px;
+  display: flex;
+}
+
+#botones-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.botones {
+  background-color: hsla(217, 12%, 63%, 0.116);
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  color: hsl(217, 12%, 63%);
+}
+
+.botones p {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.botones:hover {
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+  color: white;
+}
+
+.botones:active {
+  background-color: hsl(217, 12%, 63%);
+  cursor: pointer;
+  color: white;
+}
+
+input {
+  display: none;
+}
+
+input:checked + label {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+#submit {
+  padding: 5px;
+  margin-top: 20px;
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  font-weight: bolder;
+  font-size: 15px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+}
+
+#submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+#container-thanks {
+  padding: 0 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsla(213, 20%, 18%, 0.678);
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+  margin: 200px auto;
+}
+
+#container-thanks img {
+  width: 150px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+
+#container-thanks h2 {
+  padding-top: 5px;
+  color: hsl(25, 97%, 53%);
+  background-color: rgba(139, 130, 130, 0.185);
+  width: 250px;
+  height: 30px;
+  margin: 1px auto;
+  margin-bottom: 30px;
+  font-size: 18px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#container-thanks h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 10px;
+}
+#container-thanks p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.555);
+  text-align: center;
+  font-weight: 500;
+}
